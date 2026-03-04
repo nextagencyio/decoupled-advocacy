@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Justice Forward Alliance",
+          "path": "/homepage",
+          "heroTitle": "Stand Up for Justice",
+          "heroSubtitle": "Every Voice Matters",
+          "heroDescription": {
+            "processed": "<p>Join millions of advocates worldwide fighting for human rights, equality, and justice. Together, we can create lasting change and hold power accountable.</p>",
+            "summary": "Join millions of advocates worldwide fighting for human rights, equality, and justice. Together, we can create lasting change and hold power accountable."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-campaigns",
+              "title": "",
+              "number": "50+",
+              "label": "Active Campaigns"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-supporters",
+              "title": "",
+              "number": "2M+",
+              "label": "Global Supporters"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "35",
+              "label": "Countries Reached"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-victories",
+              "title": "",
+              "number": "120+",
+              "label": "Policy Victories"
+            }
+          ],
+          "featuredCampaignsTitle": "Our Campaigns",
+          "ctaTitle": "Ready to Make a Difference?",
+          "ctaDescription": {
+            "processed": "<p>Your voice is powerful. Join our community of advocates and take meaningful action on the issues that matter most.</p>",
+            "summary": "Your voice is powerful. Join our community of advocates and take meaningful action on the issues that matter most."
+          },
+          "ctaPrimary": "Take Action",
+          "ctaSecondary": "Learn More"
+        }
+      ]
+    }
+  }
+}

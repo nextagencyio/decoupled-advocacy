@@ -1,0 +1,165 @@
+{
+  "data": {
+    "nodeActionAlerts": {
+      "__typename": "NodeActionAlertConnection",
+      "nodes": [
+        {
+          "__typename": "NodeActionAlert",
+          "id": "alert-voting-bill",
+          "title": "URGENT: Call Your Senators on Voting Rights Bill",
+          "path": "/action-alerts/call-senators-voting-rights",
+          "body": {
+            "processed": "<p>The Senate is voting on critical voting rights legislation this week. Your voice matters more than ever. Call your senators today and urge them to vote YES on the Freedom to Vote Act.</p><h2>What to Say</h2><p>\"I'm your constituent and I urge you to vote YES on the Freedom to Vote Act. Every American deserves equal access to the ballot box.\"</p><h2>Why It Matters</h2><p>This bill would establish national standards for election administration, end partisan gerrymandering, and protect voters from discriminatory practices.</p>",
+            "summary": "The Senate is voting on critical voting rights legislation this week. Your voice matters more than ever. Call your senators today and urge them to vote YES on the Freedom to Vote Act.What to Say\"I'm y"
+          },
+          "alertLevel": [
+            {
+              "id": "urgent",
+              "name": "urgent"
+            }
+          ],
+          "issueArea": [
+            {
+              "id": "civil-rights",
+              "name": "civil-rights"
+            }
+          ],
+          "actionUrl": "https://example.com/call-senators",
+          "deadline": {
+            "timestamp": 1776315599
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=800&q=80",
+            "alt": "Call Your Senators",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeActionAlert",
+          "id": "alert-climate-rally",
+          "title": "Join the National Climate Justice March",
+          "path": "/action-alerts/climate-rally-march",
+          "body": {
+            "processed": "<p>On April 22, 2026, join thousands of advocates in Washington, D.C. for the largest climate justice march in history. We're demanding bold action on climate change and environmental justice.</p><h2>Event Details</h2><ul><li>Date: April 22, 2026</li><li>Time: 10:00 AM - 4:00 PM</li><li>Location: National Mall, Washington, D.C.</li></ul><h2>Can't Attend in Person?</h2><p>Host a local solidarity event or join our virtual rally to amplify the message from wherever you are.</p>",
+            "summary": "On April 22, 2026, join thousands of advocates in Washington, D.C. for the largest climate justice march in history. We're demanding bold action on climate change and environmental justice.Event Detai"
+          },
+          "alertLevel": [
+            {
+              "id": "high",
+              "name": "high"
+            }
+          ],
+          "issueArea": [
+            {
+              "id": "environmental-justice",
+              "name": "environmental-justice"
+            }
+          ],
+          "actionUrl": "https://example.com/climate-march-rsvp",
+          "deadline": {
+            "timestamp": 1776870000
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+            "alt": "Climate Justice March",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeActionAlert",
+          "id": "alert-petition-wages",
+          "title": "Sign the Petition: $20 Minimum Wage Now",
+          "path": "/action-alerts/sign-living-wage-petition",
+          "body": {
+            "processed": "<p>No one working full-time should live in poverty. Sign our petition demanding a $20 federal minimum wage indexed to inflation. We need 500,000 signatures to deliver to Congress.</p><h2>The Facts</h2><p>The current federal minimum wage has not been raised since 2009. Adjusted for inflation, it's worth less than at any point in the last 60 years.</p>",
+            "summary": "No one working full-time should live in poverty. Sign our petition demanding a $20 federal minimum wage indexed to inflation. We need 500,000 signatures to deliver to Congress.The FactsThe current fed"
+          },
+          "alertLevel": [
+            {
+              "id": "medium",
+              "name": "medium"
+            }
+          ],
+          "issueArea": [
+            {
+              "id": "economic-justice",
+              "name": "economic-justice"
+            }
+          ],
+          "actionUrl": "https://example.com/living-wage-petition",
+          "deadline": {
+            "timestamp": 1782881999
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+            "alt": "Living Wage Petition",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

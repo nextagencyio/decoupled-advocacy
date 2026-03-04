@@ -1,0 +1,147 @@
+{
+  "data": {
+    "nodeReports": {
+      "__typename": "NodeReportConnection",
+      "nodes": [
+        {
+          "__typename": "NodeReport",
+          "id": "report-annual-2025",
+          "title": "2025 Annual Impact Report",
+          "path": "/reports/annual-report-2025",
+          "body": {
+            "processed": "<p>Our 2025 Annual Impact Report details the Justice Forward Alliance's achievements over the past year. From landmark policy victories to grassroots mobilization, our community of advocates made incredible progress.</p><h2>Highlights</h2><ul><li>15 new state-level policy wins</li><li>500,000 new supporters joined our movement</li><li>$2.3M in direct aid to affected communities</li><li>3 major federal campaign victories</li></ul>",
+            "summary": "Our 2025 Annual Impact Report details the Justice Forward Alliance's achievements over the past year. From landmark policy victories to grassroots mobilization, our community of advocates made incredi"
+          },
+          "reportType": [
+            {
+              "id": "annual-report",
+              "name": "annual-report"
+            }
+          ],
+          "publicationDate": {
+            "timestamp": 1768456800
+          },
+          "fileUrl": "https://example.com/reports/annual-2025.pdf",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "2025 Annual Report",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeReport",
+          "id": "report-voting-access",
+          "title": "The State of Voting Access in America",
+          "path": "/reports/state-of-voting-access",
+          "body": {
+            "processed": "<p>This comprehensive report examines voting access across all 50 states, documenting barriers to ballot access and recommending reforms to strengthen democratic participation.</p><h2>Key Findings</h2><ul><li>18 states passed new voting restrictions in 2025</li><li>Wait times exceed 1 hour in many minority-majority precincts</li><li>Mail-in voting access varies dramatically by state</li><li>Voter registration modernization could add 50 million eligible voters</li></ul>",
+            "summary": "This comprehensive report examines voting access across all 50 states, documenting barriers to ballot access and recommending reforms to strengthen democratic participation.Key Findings18 states passe"
+          },
+          "reportType": [
+            {
+              "id": "research-report",
+              "name": "research-report"
+            }
+          ],
+          "publicationDate": {
+            "timestamp": 1761973200
+          },
+          "fileUrl": "https://example.com/reports/voting-access-2025.pdf",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&q=80",
+            "alt": "State of Voting Access",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeReport",
+          "id": "report-climate-equity",
+          "title": "Climate Equity Scorecard 2025",
+          "path": "/reports/climate-equity-scorecard",
+          "body": {
+            "processed": "<p>Our Climate Equity Scorecard grades federal and state climate policies on their equity impact, measuring whether climate action benefits or burdens marginalized communities.</p><h2>Methodology</h2><p>We evaluated policies across five dimensions: environmental health, economic impact, community engagement, access to clean energy, and disaster preparedness.</p><h2>Results</h2><ul><li>Only 12 states earned passing grades</li><li>Low-income communities bear 3x the pollution burden</li><li>Clean energy investment reaches wealthy areas first</li></ul>",
+            "summary": "Our Climate Equity Scorecard grades federal and state climate policies on their equity impact, measuring whether climate action benefits or burdens marginalized communities.MethodologyWe evaluated pol"
+          },
+          "reportType": [
+            {
+              "id": "policy-brief",
+              "name": "policy-brief"
+            }
+          ],
+          "publicationDate": {
+            "timestamp": 1757912400
+          },
+          "fileUrl": "https://example.com/reports/climate-equity-2025.pdf",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+            "alt": "Climate Equity Scorecard",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

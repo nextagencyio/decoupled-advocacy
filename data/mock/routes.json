@@ -1,0 +1,818 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Justice Forward Alliance",
+          "path": "/homepage",
+          "heroTitle": "Stand Up for Justice",
+          "heroSubtitle": "Every Voice Matters",
+          "heroDescription": {
+            "processed": "<p>Join millions of advocates worldwide fighting for human rights, equality, and justice. Together, we can create lasting change and hold power accountable.</p>",
+            "summary": "Join millions of advocates worldwide fighting for human rights, equality, and justice. Together, we can create lasting change and hold power accountable."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-campaigns",
+              "title": "",
+              "number": "50+",
+              "label": "Active Campaigns"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-supporters",
+              "title": "",
+              "number": "2M+",
+              "label": "Global Supporters"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-countries",
+              "title": "",
+              "number": "35",
+              "label": "Countries Reached"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-victories",
+              "title": "",
+              "number": "120+",
+              "label": "Policy Victories"
+            }
+          ],
+          "featuredCampaignsTitle": "Our Campaigns",
+          "ctaTitle": "Ready to Make a Difference?",
+          "ctaDescription": {
+            "processed": "<p>Your voice is powerful. Join our community of advocates and take meaningful action on the issues that matter most.</p>",
+            "summary": "Your voice is powerful. Join our community of advocates and take meaningful action on the issues that matter most."
+          },
+          "ctaPrimary": "Take Action",
+          "ctaSecondary": "Learn More"
+        }
+      }
+    }
+  },
+  "/campaigns/protect-voting-rights": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-voting-rights",
+          "title": "Protect Voting Rights",
+          "path": "/campaigns/protect-voting-rights",
+          "body": {
+            "processed": "<p>Our democracy depends on every citizen's right to vote. This campaign fights voter suppression laws, advocates for automatic voter registration, and pushes for expanded early voting access nationwide.</p><h2>Campaign Goals</h2><ul><li>Pass the Freedom to Vote Act</li><li>Restore the Voting Rights Act</li><li>End partisan gerrymandering</li><li>Expand mail-in voting access</li></ul><h2>What You Can Do</h2><p>Contact your representatives, volunteer as a poll worker, and help register voters in your community. Every action counts in protecting our democratic rights.</p>",
+            "summary": "Our democracy depends on every citizen's right to vote. This campaign fights voter suppression laws, advocates for automatic voter registration, and pushes for expanded early voting access nationwide."
+          },
+          "issueArea": [
+            {
+              "id": "civil-rights",
+              "name": "civil-rights"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "legislative",
+              "name": "legislative"
+            }
+          ],
+          "goal": "Pass comprehensive voting rights legislation by 2027",
+          "startDate": {
+            "timestamp": 1736920800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=800&q=80",
+            "alt": "Protect Voting Rights campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/campaigns/climate-justice-now": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-climate-justice",
+          "title": "Climate Justice Now",
+          "path": "/campaigns/climate-justice-now",
+          "body": {
+            "processed": "<p>Climate change disproportionately affects marginalized communities. Our Climate Justice campaign demands equitable climate policies that protect frontline communities while transitioning to clean energy.</p><h2>Key Demands</h2><ul><li>Environmental justice for frontline communities</li><li>Just transition for fossil fuel workers</li><li>Corporate accountability for pollution</li><li>Investment in green infrastructure</li></ul><h2>Take Action</h2><p>Join our next march, sign the petition, or organize a climate justice event in your community.</p>",
+            "summary": "Climate change disproportionately affects marginalized communities. Our Climate Justice campaign demands equitable climate policies that protect frontline communities while transitioning to clean ener"
+          },
+          "issueArea": [
+            {
+              "id": "environmental-justice",
+              "name": "environmental-justice"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "grassroots",
+              "name": "grassroots"
+            }
+          ],
+          "goal": "Secure $10B in climate justice funding for frontline communities",
+          "startDate": {
+            "timestamp": 1740808800
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80",
+            "alt": "Climate Justice Now campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/campaigns/immigrant-rights": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCampaign",
+          "id": "campaign-immigrant-rights",
+          "title": "Defend Immigrant Rights",
+          "path": "/campaigns/immigrant-rights",
+          "body": {
+            "processed": "<p>Every person deserves dignity and respect regardless of where they were born. This campaign advocates for comprehensive immigration reform, protection for asylum seekers, and an end to family separations.</p><h2>Our Priorities</h2><ul><li>Path to citizenship for undocumented residents</li><li>Protection for DACA recipients</li><li>End family separation policies</li><li>Humane treatment at the border</li></ul>",
+            "summary": "Every person deserves dignity and respect regardless of where they were born. This campaign advocates for comprehensive immigration reform, protection for asylum seekers, and an end to family separati"
+          },
+          "issueArea": [
+            {
+              "id": "immigration",
+              "name": "immigration"
+            }
+          ],
+          "campaignType": [
+            {
+              "id": "legislative",
+              "name": "legislative"
+            }
+          ],
+          "goal": "Pass comprehensive immigration reform legislation",
+          "startDate": {
+            "timestamp": 1738389600
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+            "alt": "Defend Immigrant Rights campaign",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/issues/racial-justice": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIssue",
+          "id": "issue-racial-justice",
+          "title": "Racial Justice",
+          "path": "/issues/racial-justice",
+          "body": {
+            "processed": "<p>Systemic racism continues to impact every aspect of life in America, from criminal justice to healthcare, education, and economic opportunity. Justice Forward Alliance works to dismantle structural racism and build a truly equitable society.</p><h2>Our Approach</h2><p>We combine grassroots organizing, policy advocacy, and public education to address the root causes of racial inequality. Our work includes police reform campaigns, anti-discrimination legislation, and equity in education initiatives.</p>",
+            "summary": "Systemic racism continues to impact every aspect of life in America, from criminal justice to healthcare, education, and economic opportunity. Justice Forward Alliance works to dismantle structural ra"
+          },
+          "issueArea": [
+            {
+              "id": "civil-rights",
+              "name": "civil-rights"
+            }
+          ],
+          "keyFacts": {
+            "processed": "<ul><li>Black Americans are incarcerated at 5x the rate of white Americans</li><li>The racial wealth gap has barely narrowed in 50 years</li><li>Communities of color face disproportionate environmental hazards</li><li>Voter suppression laws disproportionately affect minority voters</li></ul>",
+            "summary": "Black Americans are incarcerated at 5x the rate of white AmericansThe racial wealth gap has barely narrowed in 50 yearsCommunities of color face disproportionate environmental hazardsVoter suppression"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&q=80",
+            "alt": "Racial Justice",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/issues/gender-equality": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIssue",
+          "id": "issue-gender-equality",
+          "title": "Gender Equality",
+          "path": "/issues/gender-equality",
+          "body": {
+            "processed": "<p>Gender inequality persists in workplaces, governments, and communities around the world. We advocate for equal pay, reproductive rights, and an end to gender-based violence.</p><h2>Focus Areas</h2><p>Our gender equality work spans policy advocacy for pay equity, support for survivors of domestic violence, and campaigns to increase women's representation in government and leadership positions.</p>",
+            "summary": "Gender inequality persists in workplaces, governments, and communities around the world. We advocate for equal pay, reproductive rights, and an end to gender-based violence.Focus AreasOur gender equal"
+          },
+          "issueArea": [
+            {
+              "id": "gender-rights",
+              "name": "gender-rights"
+            }
+          ],
+          "keyFacts": {
+            "processed": "<ul><li>Women earn 82 cents for every dollar earned by men</li><li>Only 28% of national parliamentarians worldwide are women</li><li>1 in 3 women experience physical or sexual violence</li><li>Women perform 3x more unpaid care work than men globally</li></ul>",
+            "summary": "Women earn 82 cents for every dollar earned by menOnly 28% of national parliamentarians worldwide are women1 in 3 women experience physical or sexual violenceWomen perform 3x more unpaid care work tha"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&q=80",
+            "alt": "Gender Equality",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/issues/economic-justice": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIssue",
+          "id": "issue-economic-justice",
+          "title": "Economic Justice",
+          "path": "/issues/economic-justice",
+          "body": {
+            "processed": "<p>The gap between the rich and poor continues to widen. We fight for living wages, affordable housing, and economic policies that work for everyone, not just the wealthy few.</p><h2>Key Initiatives</h2><p>Our economic justice programs include living wage campaigns, housing affordability advocacy, and efforts to strengthen worker protections and union rights.</p>",
+            "summary": "The gap between the rich and poor continues to widen. We fight for living wages, affordable housing, and economic policies that work for everyone, not just the wealthy few.Key InitiativesOur economic "
+          },
+          "issueArea": [
+            {
+              "id": "economic-justice",
+              "name": "economic-justice"
+            }
+          ],
+          "keyFacts": {
+            "processed": "<ul><li>The top 1% holds more wealth than the bottom 50% combined</li><li>40% of Americans can't cover a $400 emergency expense</li><li>Minimum wage hasn't kept pace with inflation for decades</li><li>Housing costs consume over 30% of income for millions of families</li></ul>",
+            "summary": "The top 1% holds more wealth than the bottom 50% combined40% of Americans can't cover a $400 emergency expenseMinimum wage hasn't kept pace with inflation for decadesHousing costs consume over 30% of "
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "Economic Justice",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/issues/digital-rights": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIssue",
+          "id": "issue-digital-rights",
+          "title": "Digital Rights & Privacy",
+          "path": "/issues/digital-rights",
+          "body": {
+            "processed": "<p>In an increasingly digital world, protecting privacy and ensuring equal access to technology are fundamental rights. We advocate for strong data protection laws, net neutrality, and bridging the digital divide.</p><h2>Our Work</h2><p>From opposing mass surveillance to fighting for broadband access in underserved communities, our digital rights program ensures technology serves everyone equally.</p>",
+            "summary": "In an increasingly digital world, protecting privacy and ensuring equal access to technology are fundamental rights. We advocate for strong data protection laws, net neutrality, and bridging the digit"
+          },
+          "issueArea": [
+            {
+              "id": "civil-liberties",
+              "name": "civil-liberties"
+            }
+          ],
+          "keyFacts": {
+            "processed": "<ul><li>Over 2 billion people lack internet access worldwide</li><li>Tech companies collect massive amounts of personal data with little oversight</li><li>Facial recognition technology raises serious civil liberties concerns</li><li>Algorithmic bias perpetuates discrimination in hiring, lending, and criminal justice</li></ul>",
+            "summary": "Over 2 billion people lack internet access worldwideTech companies collect massive amounts of personal data with little oversightFacial recognition technology raises serious civil liberties concernsAl"
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+            "alt": "Digital Rights and Privacy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/action-alerts/call-senators-voting-rights": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeActionAlert",
+          "id": "alert-voting-bill",
+          "title": "URGENT: Call Your Senators on Voting Rights Bill",
+          "path": "/action-alerts/call-senators-voting-rights",
+          "body": {
+            "processed": "<p>The Senate is voting on critical voting rights legislation this week. Your voice matters more than ever. Call your senators today and urge them to vote YES on the Freedom to Vote Act.</p><h2>What to Say</h2><p>\"I'm your constituent and I urge you to vote YES on the Freedom to Vote Act. Every American deserves equal access to the ballot box.\"</p><h2>Why It Matters</h2><p>This bill would establish national standards for election administration, end partisan gerrymandering, and protect voters from discriminatory practices.</p>",
+            "summary": "The Senate is voting on critical voting rights legislation this week. Your voice matters more than ever. Call your senators today and urge them to vote YES on the Freedom to Vote Act.What to Say\"I'm y"
+          },
+          "alertLevel": [
+            {
+              "id": "urgent",
+              "name": "urgent"
+            }
+          ],
+          "issueArea": [
+            {
+              "id": "civil-rights",
+              "name": "civil-rights"
+            }
+          ],
+          "actionUrl": "https://example.com/call-senators",
+          "deadline": {
+            "timestamp": 1776315599
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=800&q=80",
+            "alt": "Call Your Senators",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/action-alerts/climate-rally-march": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeActionAlert",
+          "id": "alert-climate-rally",
+          "title": "Join the National Climate Justice March",
+          "path": "/action-alerts/climate-rally-march",
+          "body": {
+            "processed": "<p>On April 22, 2026, join thousands of advocates in Washington, D.C. for the largest climate justice march in history. We're demanding bold action on climate change and environmental justice.</p><h2>Event Details</h2><ul><li>Date: April 22, 2026</li><li>Time: 10:00 AM - 4:00 PM</li><li>Location: National Mall, Washington, D.C.</li></ul><h2>Can't Attend in Person?</h2><p>Host a local solidarity event or join our virtual rally to amplify the message from wherever you are.</p>",
+            "summary": "On April 22, 2026, join thousands of advocates in Washington, D.C. for the largest climate justice march in history. We're demanding bold action on climate change and environmental justice.Event Detai"
+          },
+          "alertLevel": [
+            {
+              "id": "high",
+              "name": "high"
+            }
+          ],
+          "issueArea": [
+            {
+              "id": "environmental-justice",
+              "name": "environmental-justice"
+            }
+          ],
+          "actionUrl": "https://example.com/climate-march-rsvp",
+          "deadline": {
+            "timestamp": 1776870000
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+            "alt": "Climate Justice March",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/action-alerts/sign-living-wage-petition": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeActionAlert",
+          "id": "alert-petition-wages",
+          "title": "Sign the Petition: $20 Minimum Wage Now",
+          "path": "/action-alerts/sign-living-wage-petition",
+          "body": {
+            "processed": "<p>No one working full-time should live in poverty. Sign our petition demanding a $20 federal minimum wage indexed to inflation. We need 500,000 signatures to deliver to Congress.</p><h2>The Facts</h2><p>The current federal minimum wage has not been raised since 2009. Adjusted for inflation, it's worth less than at any point in the last 60 years.</p>",
+            "summary": "No one working full-time should live in poverty. Sign our petition demanding a $20 federal minimum wage indexed to inflation. We need 500,000 signatures to deliver to Congress.The FactsThe current fed"
+          },
+          "alertLevel": [
+            {
+              "id": "medium",
+              "name": "medium"
+            }
+          ],
+          "issueArea": [
+            {
+              "id": "economic-justice",
+              "name": "economic-justice"
+            }
+          ],
+          "actionUrl": "https://example.com/living-wage-petition",
+          "deadline": {
+            "timestamp": 1782881999
+          },
+          "image": {
+            "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+            "alt": "Living Wage Petition",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/reports/annual-report-2025": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeReport",
+          "id": "report-annual-2025",
+          "title": "2025 Annual Impact Report",
+          "path": "/reports/annual-report-2025",
+          "body": {
+            "processed": "<p>Our 2025 Annual Impact Report details the Justice Forward Alliance's achievements over the past year. From landmark policy victories to grassroots mobilization, our community of advocates made incredible progress.</p><h2>Highlights</h2><ul><li>15 new state-level policy wins</li><li>500,000 new supporters joined our movement</li><li>$2.3M in direct aid to affected communities</li><li>3 major federal campaign victories</li></ul>",
+            "summary": "Our 2025 Annual Impact Report details the Justice Forward Alliance's achievements over the past year. From landmark policy victories to grassroots mobilization, our community of advocates made incredi"
+          },
+          "reportType": [
+            {
+              "id": "annual-report",
+              "name": "annual-report"
+            }
+          ],
+          "publicationDate": {
+            "timestamp": 1768456800
+          },
+          "fileUrl": "https://example.com/reports/annual-2025.pdf",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "2025 Annual Report",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/reports/state-of-voting-access": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeReport",
+          "id": "report-voting-access",
+          "title": "The State of Voting Access in America",
+          "path": "/reports/state-of-voting-access",
+          "body": {
+            "processed": "<p>This comprehensive report examines voting access across all 50 states, documenting barriers to ballot access and recommending reforms to strengthen democratic participation.</p><h2>Key Findings</h2><ul><li>18 states passed new voting restrictions in 2025</li><li>Wait times exceed 1 hour in many minority-majority precincts</li><li>Mail-in voting access varies dramatically by state</li><li>Voter registration modernization could add 50 million eligible voters</li></ul>",
+            "summary": "This comprehensive report examines voting access across all 50 states, documenting barriers to ballot access and recommending reforms to strengthen democratic participation.Key Findings18 states passe"
+          },
+          "reportType": [
+            {
+              "id": "research-report",
+              "name": "research-report"
+            }
+          ],
+          "publicationDate": {
+            "timestamp": 1761973200
+          },
+          "fileUrl": "https://example.com/reports/voting-access-2025.pdf",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&q=80",
+            "alt": "State of Voting Access",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/reports/climate-equity-scorecard": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeReport",
+          "id": "report-climate-equity",
+          "title": "Climate Equity Scorecard 2025",
+          "path": "/reports/climate-equity-scorecard",
+          "body": {
+            "processed": "<p>Our Climate Equity Scorecard grades federal and state climate policies on their equity impact, measuring whether climate action benefits or burdens marginalized communities.</p><h2>Methodology</h2><p>We evaluated policies across five dimensions: environmental health, economic impact, community engagement, access to clean energy, and disaster preparedness.</p><h2>Results</h2><ul><li>Only 12 states earned passing grades</li><li>Low-income communities bear 3x the pollution burden</li><li>Clean energy investment reaches wealthy areas first</li></ul>",
+            "summary": "Our Climate Equity Scorecard grades federal and state climate policies on their equity impact, measuring whether climate action benefits or burdens marginalized communities.MethodologyWe evaluated pol"
+          },
+          "reportType": [
+            {
+              "id": "policy-brief",
+              "name": "policy-brief"
+            }
+          ],
+          "publicationDate": {
+            "timestamp": 1757912400
+          },
+          "fileUrl": "https://example.com/reports/climate-equity-2025.pdf",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+            "alt": "Climate Equity Scorecard",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Justice Forward Alliance",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Justice Forward Alliance is a nonpartisan advocacy organization dedicated to advancing human rights, social justice, and democratic accountability. Founded in 2010, we have grown into a movement of over 2 million supporters across 35 countries.</p><h2>Our Mission</h2><p>We believe that justice is not a privilege but a right. Our mission is to amplify the voices of marginalized communities, hold powerful institutions accountable, and create systemic change through advocacy, education, and grassroots organizing.</p><h2>Our Values</h2><ul><li><strong>Justice</strong> - We stand with those whose rights are threatened.</li><li><strong>Solidarity</strong> - We believe in the power of collective action.</li><li><strong>Accountability</strong> - We hold institutions and ourselves to the highest standards.</li><li><strong>Inclusion</strong> - We center the voices of those most affected by injustice.</li></ul>",
+            "summary": "Justice Forward Alliance is a nonpartisan advocacy organization dedicated to advancing human rights, social justice, and democratic accountability. Founded in 2010, we have grown into a movement of ov"
+          }
+        }
+      }
+    }
+  },
+  "/get-involved": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-get-involved",
+          "title": "Get Involved",
+          "path": "/get-involved",
+          "body": {
+            "processed": "<h2>Volunteer</h2><p>Join our network of grassroots volunteers who organize events, canvass communities, and make our campaigns possible. No experience necessary — just a commitment to justice.</p><h2>Donate</h2><p>Your financial support powers our campaigns, funds research, and helps us provide direct aid to communities in need. Every dollar makes a difference.</p><h2>Spread the Word</h2><p>Share our campaigns on social media, write letters to the editor, and talk to your friends and family about the issues that matter. Awareness is the first step toward change.</p><h2>Contact Your Representatives</h2><p>One of the most impactful things you can do is contact your elected officials. Use our tools to find your representatives and send them a message.</p>",
+            "summary": "VolunteerJoin our network of grassroots volunteers who organize events, canvass communities, and make our campaigns possible. No experience necessary — just a commitment to justice.DonateYour financia"
+          }
+        }
+      }
+    }
+  }
+}

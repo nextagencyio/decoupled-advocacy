@@ -1,0 +1,497 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Advocacy homepage with hero, featured campaigns, and call to action",
+      "fields": [
+        {
+          "id": "hero_title",
+          "label": "Hero Title",
+          "type": "string",
+          "description": "Main headline (e.g., 'Fight for Justice')"
+        },
+        {
+          "id": "hero_subtitle",
+          "label": "Hero Subtitle",
+          "type": "string",
+          "description": "Secondary text below the title"
+        },
+        {
+          "id": "hero_description",
+          "label": "Hero Description",
+          "type": "text",
+          "description": "Longer description for the hero section"
+        },
+        {
+          "id": "stats_items",
+          "label": "Statistics",
+          "type": "paragraph(stat_item)[]",
+          "description": "Key organization statistics"
+        },
+        {
+          "id": "featured_campaigns_title",
+          "label": "Featured Campaigns Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_title",
+          "label": "CTA Section Title",
+          "type": "string"
+        },
+        {
+          "id": "cta_description",
+          "label": "CTA Description",
+          "type": "text"
+        },
+        {
+          "id": "cta_primary",
+          "label": "Primary CTA Text",
+          "type": "string"
+        },
+        {
+          "id": "cta_secondary",
+          "label": "Secondary CTA Text",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "bundle": "campaign",
+      "label": "Campaign",
+      "description": "Advocacy campaigns for human rights issues",
+      "body": true,
+      "fields": [
+        {
+          "id": "issue_area",
+          "label": "Issue Area",
+          "type": "term(issue_areas)[]",
+          "description": "Related issue area"
+        },
+        {
+          "id": "campaign_type",
+          "label": "Campaign Type",
+          "type": "term(campaign_types)[]",
+          "description": "Type of campaign"
+        },
+        {
+          "id": "goal",
+          "label": "Campaign Goal",
+          "type": "string",
+          "description": "Brief description of campaign objective"
+        },
+        {
+          "id": "start_date",
+          "label": "Start Date",
+          "type": "datetime"
+        },
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "issue",
+      "label": "Issue",
+      "description": "Human rights and social justice issues",
+      "body": true,
+      "fields": [
+        {
+          "id": "issue_area",
+          "label": "Issue Area",
+          "type": "term(issue_areas)[]",
+          "description": "Issue area classification"
+        },
+        {
+          "id": "key_facts",
+          "label": "Key Facts",
+          "type": "text",
+          "description": "Important facts about this issue"
+        },
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "action_alert",
+      "label": "Action Alert",
+      "description": "Urgent calls to action for supporters",
+      "body": true,
+      "fields": [
+        {
+          "id": "alert_level",
+          "label": "Alert Level",
+          "type": "term(alert_levels)[]",
+          "description": "Urgency level of the alert"
+        },
+        {
+          "id": "issue_area",
+          "label": "Issue Area",
+          "type": "term(issue_areas)[]"
+        },
+        {
+          "id": "action_url",
+          "label": "Action URL",
+          "type": "string",
+          "description": "Link where supporters can take action"
+        },
+        {
+          "id": "deadline",
+          "label": "Deadline",
+          "type": "datetime"
+        },
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "report",
+      "label": "Report",
+      "description": "Research reports and policy documents",
+      "body": true,
+      "fields": [
+        {
+          "id": "report_type",
+          "label": "Report Type",
+          "type": "term(report_types)[]",
+          "description": "Type of report"
+        },
+        {
+          "id": "publication_date",
+          "label": "Publication Date",
+          "type": "datetime"
+        },
+        {
+          "id": "file_url",
+          "label": "File URL",
+          "type": "string",
+          "description": "Link to downloadable report"
+        },
+        {
+          "id": "image",
+          "label": "Featured Image",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "stat_item",
+      "label": "Statistic Item",
+      "description": "A key statistic with number and label",
+      "fields": [
+        {
+          "id": "number",
+          "label": "Number",
+          "type": "string!",
+          "description": "The statistic value (e.g., '50+', '2M')"
+        },
+        {
+          "id": "label",
+          "label": "Label",
+          "type": "string!",
+          "description": "What the number represents"
+        }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "stat-campaigns",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "50+",
+        "label": "Active Campaigns"
+      }
+    },
+    {
+      "id": "stat-supporters",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "2M+",
+        "label": "Global Supporters"
+      }
+    },
+    {
+      "id": "stat-countries",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "35",
+        "label": "Countries Reached"
+      }
+    },
+    {
+      "id": "stat-victories",
+      "type": "paragraph.stat_item",
+      "values": {
+        "number": "120+",
+        "label": "Policy Victories"
+      }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "Welcome to Justice Forward Alliance",
+        "hero_title": "Stand Up for Justice",
+        "hero_subtitle": "Every Voice Matters",
+        "hero_description": "<p>Join millions of advocates worldwide fighting for human rights, equality, and justice. Together, we can create lasting change and hold power accountable.</p>",
+        "stats_items": [
+          "@stat-campaigns",
+          "@stat-supporters",
+          "@stat-countries",
+          "@stat-victories"
+        ],
+        "featured_campaigns_title": "Our Campaigns",
+        "cta_title": "Ready to Make a Difference?",
+        "cta_description": "<p>Your voice is powerful. Join our community of advocates and take meaningful action on the issues that matter most.</p>",
+        "cta_primary": "Take Action",
+        "cta_secondary": "Learn More"
+      }
+    },
+    {
+      "id": "campaign-voting-rights",
+      "type": "node.campaign",
+      "path": "/campaigns/protect-voting-rights",
+      "values": {
+        "title": "Protect Voting Rights",
+        "body": "<p>Our democracy depends on every citizen's right to vote. This campaign fights voter suppression laws, advocates for automatic voter registration, and pushes for expanded early voting access nationwide.</p><h2>Campaign Goals</h2><ul><li>Pass the Freedom to Vote Act</li><li>Restore the Voting Rights Act</li><li>End partisan gerrymandering</li><li>Expand mail-in voting access</li></ul><h2>What You Can Do</h2><p>Contact your representatives, volunteer as a poll worker, and help register voters in your community. Every action counts in protecting our democratic rights.</p>",
+        "issue_area": ["civil-rights"],
+        "campaign_type": ["legislative"],
+        "goal": "Pass comprehensive voting rights legislation by 2027",
+        "start_date": "2025-01-15T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?w=800&q=80",
+          "alt": "Protect Voting Rights campaign"
+        }
+      }
+    },
+    {
+      "id": "campaign-climate-justice",
+      "type": "node.campaign",
+      "path": "/campaigns/climate-justice-now",
+      "values": {
+        "title": "Climate Justice Now",
+        "body": "<p>Climate change disproportionately affects marginalized communities. Our Climate Justice campaign demands equitable climate policies that protect frontline communities while transitioning to clean energy.</p><h2>Key Demands</h2><ul><li>Environmental justice for frontline communities</li><li>Just transition for fossil fuel workers</li><li>Corporate accountability for pollution</li><li>Investment in green infrastructure</li></ul><h2>Take Action</h2><p>Join our next march, sign the petition, or organize a climate justice event in your community.</p>",
+        "issue_area": ["environmental-justice"],
+        "campaign_type": ["grassroots"],
+        "goal": "Secure $10B in climate justice funding for frontline communities",
+        "start_date": "2025-03-01T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&q=80",
+          "alt": "Climate Justice Now campaign"
+        }
+      }
+    },
+    {
+      "id": "campaign-immigrant-rights",
+      "type": "node.campaign",
+      "path": "/campaigns/immigrant-rights",
+      "values": {
+        "title": "Defend Immigrant Rights",
+        "body": "<p>Every person deserves dignity and respect regardless of where they were born. This campaign advocates for comprehensive immigration reform, protection for asylum seekers, and an end to family separations.</p><h2>Our Priorities</h2><ul><li>Path to citizenship for undocumented residents</li><li>Protection for DACA recipients</li><li>End family separation policies</li><li>Humane treatment at the border</li></ul>",
+        "issue_area": ["immigration"],
+        "campaign_type": ["legislative"],
+        "goal": "Pass comprehensive immigration reform legislation",
+        "start_date": "2025-02-01T00:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80",
+          "alt": "Defend Immigrant Rights campaign"
+        }
+      }
+    },
+    {
+      "id": "issue-racial-justice",
+      "type": "node.issue",
+      "path": "/issues/racial-justice",
+      "values": {
+        "title": "Racial Justice",
+        "body": "<p>Systemic racism continues to impact every aspect of life in America, from criminal justice to healthcare, education, and economic opportunity. Justice Forward Alliance works to dismantle structural racism and build a truly equitable society.</p><h2>Our Approach</h2><p>We combine grassroots organizing, policy advocacy, and public education to address the root causes of racial inequality. Our work includes police reform campaigns, anti-discrimination legislation, and equity in education initiatives.</p>",
+        "issue_area": ["civil-rights"],
+        "key_facts": "<ul><li>Black Americans are incarcerated at 5x the rate of white Americans</li><li>The racial wealth gap has barely narrowed in 50 years</li><li>Communities of color face disproportionate environmental hazards</li><li>Voter suppression laws disproportionately affect minority voters</li></ul>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1591848478625-de43268e6fb8?w=800&q=80",
+          "alt": "Racial Justice"
+        }
+      }
+    },
+    {
+      "id": "issue-gender-equality",
+      "type": "node.issue",
+      "path": "/issues/gender-equality",
+      "values": {
+        "title": "Gender Equality",
+        "body": "<p>Gender inequality persists in workplaces, governments, and communities around the world. We advocate for equal pay, reproductive rights, and an end to gender-based violence.</p><h2>Focus Areas</h2><p>Our gender equality work spans policy advocacy for pay equity, support for survivors of domestic violence, and campaigns to increase women's representation in government and leadership positions.</p>",
+        "issue_area": ["gender-rights"],
+        "key_facts": "<ul><li>Women earn 82 cents for every dollar earned by men</li><li>Only 28% of national parliamentarians worldwide are women</li><li>1 in 3 women experience physical or sexual violence</li><li>Women perform 3x more unpaid care work than men globally</li></ul>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&q=80",
+          "alt": "Gender Equality"
+        }
+      }
+    },
+    {
+      "id": "issue-economic-justice",
+      "type": "node.issue",
+      "path": "/issues/economic-justice",
+      "values": {
+        "title": "Economic Justice",
+        "body": "<p>The gap between the rich and poor continues to widen. We fight for living wages, affordable housing, and economic policies that work for everyone, not just the wealthy few.</p><h2>Key Initiatives</h2><p>Our economic justice programs include living wage campaigns, housing affordability advocacy, and efforts to strengthen worker protections and union rights.</p>",
+        "issue_area": ["economic-justice"],
+        "key_facts": "<ul><li>The top 1% holds more wealth than the bottom 50% combined</li><li>40% of Americans can't cover a $400 emergency expense</li><li>Minimum wage hasn't kept pace with inflation for decades</li><li>Housing costs consume over 30% of income for millions of families</li></ul>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+          "alt": "Economic Justice"
+        }
+      }
+    },
+    {
+      "id": "issue-digital-rights",
+      "type": "node.issue",
+      "path": "/issues/digital-rights",
+      "values": {
+        "title": "Digital Rights & Privacy",
+        "body": "<p>In an increasingly digital world, protecting privacy and ensuring equal access to technology are fundamental rights. We advocate for strong data protection laws, net neutrality, and bridging the digital divide.</p><h2>Our Work</h2><p>From opposing mass surveillance to fighting for broadband access in underserved communities, our digital rights program ensures technology serves everyone equally.</p>",
+        "issue_area": ["civil-liberties"],
+        "key_facts": "<ul><li>Over 2 billion people lack internet access worldwide</li><li>Tech companies collect massive amounts of personal data with little oversight</li><li>Facial recognition technology raises serious civil liberties concerns</li><li>Algorithmic bias perpetuates discrimination in hiring, lending, and criminal justice</li></ul>",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80",
+          "alt": "Digital Rights and Privacy"
+        }
+      }
+    },
+    {
+      "id": "alert-voting-bill",
+      "type": "node.action_alert",
+      "path": "/action-alerts/call-senators-voting-rights",
+      "values": {
+        "title": "URGENT: Call Your Senators on Voting Rights Bill",
+        "body": "<p>The Senate is voting on critical voting rights legislation this week. Your voice matters more than ever. Call your senators today and urge them to vote YES on the Freedom to Vote Act.</p><h2>What to Say</h2><p>\"I'm your constituent and I urge you to vote YES on the Freedom to Vote Act. Every American deserves equal access to the ballot box.\"</p><h2>Why It Matters</h2><p>This bill would establish national standards for election administration, end partisan gerrymandering, and protect voters from discriminatory practices.</p>",
+        "alert_level": ["urgent"],
+        "issue_area": ["civil-rights"],
+        "action_url": "https://example.com/call-senators",
+        "deadline": "2026-04-15T23:59:59",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?w=800&q=80",
+          "alt": "Call Your Senators"
+        }
+      }
+    },
+    {
+      "id": "alert-climate-rally",
+      "type": "node.action_alert",
+      "path": "/action-alerts/climate-rally-march",
+      "values": {
+        "title": "Join the National Climate Justice March",
+        "body": "<p>On April 22, 2026, join thousands of advocates in Washington, D.C. for the largest climate justice march in history. We're demanding bold action on climate change and environmental justice.</p><h2>Event Details</h2><ul><li>Date: April 22, 2026</li><li>Time: 10:00 AM - 4:00 PM</li><li>Location: National Mall, Washington, D.C.</li></ul><h2>Can't Attend in Person?</h2><p>Host a local solidarity event or join our virtual rally to amplify the message from wherever you are.</p>",
+        "alert_level": ["high"],
+        "issue_area": ["environmental-justice"],
+        "action_url": "https://example.com/climate-march-rsvp",
+        "deadline": "2026-04-22T10:00:00",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80",
+          "alt": "Climate Justice March"
+        }
+      }
+    },
+    {
+      "id": "alert-petition-wages",
+      "type": "node.action_alert",
+      "path": "/action-alerts/sign-living-wage-petition",
+      "values": {
+        "title": "Sign the Petition: $20 Minimum Wage Now",
+        "body": "<p>No one working full-time should live in poverty. Sign our petition demanding a $20 federal minimum wage indexed to inflation. We need 500,000 signatures to deliver to Congress.</p><h2>The Facts</h2><p>The current federal minimum wage has not been raised since 2009. Adjusted for inflation, it's worth less than at any point in the last 60 years.</p>",
+        "alert_level": ["medium"],
+        "issue_area": ["economic-justice"],
+        "action_url": "https://example.com/living-wage-petition",
+        "deadline": "2026-06-30T23:59:59",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80",
+          "alt": "Living Wage Petition"
+        }
+      }
+    },
+    {
+      "id": "report-annual-2025",
+      "type": "node.report",
+      "path": "/reports/annual-report-2025",
+      "values": {
+        "title": "2025 Annual Impact Report",
+        "body": "<p>Our 2025 Annual Impact Report details the Justice Forward Alliance's achievements over the past year. From landmark policy victories to grassroots mobilization, our community of advocates made incredible progress.</p><h2>Highlights</h2><ul><li>15 new state-level policy wins</li><li>500,000 new supporters joined our movement</li><li>$2.3M in direct aid to affected communities</li><li>3 major federal campaign victories</li></ul>",
+        "report_type": ["annual-report"],
+        "publication_date": "2026-01-15T00:00:00",
+        "file_url": "https://example.com/reports/annual-2025.pdf",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+          "alt": "2025 Annual Report"
+        }
+      }
+    },
+    {
+      "id": "report-voting-access",
+      "type": "node.report",
+      "path": "/reports/state-of-voting-access",
+      "values": {
+        "title": "The State of Voting Access in America",
+        "body": "<p>This comprehensive report examines voting access across all 50 states, documenting barriers to ballot access and recommending reforms to strengthen democratic participation.</p><h2>Key Findings</h2><ul><li>18 states passed new voting restrictions in 2025</li><li>Wait times exceed 1 hour in many minority-majority precincts</li><li>Mail-in voting access varies dramatically by state</li><li>Voter registration modernization could add 50 million eligible voters</li></ul>",
+        "report_type": ["research-report"],
+        "publication_date": "2025-11-01T00:00:00",
+        "file_url": "https://example.com/reports/voting-access-2025.pdf",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?w=800&q=80",
+          "alt": "State of Voting Access"
+        }
+      }
+    },
+    {
+      "id": "report-climate-equity",
+      "type": "node.report",
+      "path": "/reports/climate-equity-scorecard",
+      "values": {
+        "title": "Climate Equity Scorecard 2025",
+        "body": "<p>Our Climate Equity Scorecard grades federal and state climate policies on their equity impact, measuring whether climate action benefits or burdens marginalized communities.</p><h2>Methodology</h2><p>We evaluated policies across five dimensions: environmental health, economic impact, community engagement, access to clean energy, and disaster preparedness.</p><h2>Results</h2><ul><li>Only 12 states earned passing grades</li><li>Low-income communities bear 3x the pollution burden</li><li>Clean energy investment reaches wealthy areas first</li></ul>",
+        "report_type": ["policy-brief"],
+        "publication_date": "2025-09-15T00:00:00",
+        "file_url": "https://example.com/reports/climate-equity-2025.pdf",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+          "alt": "Climate Equity Scorecard"
+        }
+      }
+    },
+    {
+      "id": "page-about",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About Justice Forward Alliance",
+        "body": "<p>Justice Forward Alliance is a nonpartisan advocacy organization dedicated to advancing human rights, social justice, and democratic accountability. Founded in 2010, we have grown into a movement of over 2 million supporters across 35 countries.</p><h2>Our Mission</h2><p>We believe that justice is not a privilege but a right. Our mission is to amplify the voices of marginalized communities, hold powerful institutions accountable, and create systemic change through advocacy, education, and grassroots organizing.</p><h2>Our Values</h2><ul><li><strong>Justice</strong> - We stand with those whose rights are threatened.</li><li><strong>Solidarity</strong> - We believe in the power of collective action.</li><li><strong>Accountability</strong> - We hold institutions and ourselves to the highest standards.</li><li><strong>Inclusion</strong> - We center the voices of those most affected by injustice.</li></ul>"
+      }
+    },
+    {
+      "id": "page-get-involved",
+      "type": "node.page",
+      "path": "/get-involved",
+      "values": {
+        "title": "Get Involved",
+        "body": "<h2>Volunteer</h2><p>Join our network of grassroots volunteers who organize events, canvass communities, and make our campaigns possible. No experience necessary — just a commitment to justice.</p><h2>Donate</h2><p>Your financial support powers our campaigns, funds research, and helps us provide direct aid to communities in need. Every dollar makes a difference.</p><h2>Spread the Word</h2><p>Share our campaigns on social media, write letters to the editor, and talk to your friends and family about the issues that matter. Awareness is the first step toward change.</p><h2>Contact Your Representatives</h2><p>One of the most impactful things you can do is contact your elected officials. Use our tools to find your representatives and send them a message.</p>"
+      }
+    }
+  ]
+}
