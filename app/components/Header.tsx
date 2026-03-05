@@ -92,7 +92,7 @@ export default function Header() {
 
           <div className="flex items-center space-x-4">
             <Link
-              href="/contact"
+              href="/campaigns"
               className="hidden sm:inline-flex items-center bg-accent-400 text-primary-900 px-5 py-2 rounded-2xl hover:bg-accent-300 transition-colors duration-200 font-bold text-sm"
             >
               Take Action
@@ -128,7 +128,7 @@ export default function Header() {
                 </Link>
               ))}
               <Link
-                href="/contact"
+                href="/campaigns"
                 onClick={() => setMobileMenuOpen(false)}
                 className="mx-4 mt-2 text-center bg-accent-400 text-primary-900 px-5 py-3 rounded-2xl hover:bg-accent-300 transition-colors duration-200 font-bold text-sm"
               >

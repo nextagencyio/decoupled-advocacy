@@ -193,7 +193,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
                   { label: 'Issues', href: '/issues' },
                   { label: 'Action Alerts', href: '/action-alerts' },
                   { label: 'Reports', href: '/reports' },
-                  { label: 'Contact', href: '/contact' },
+                  { label: 'Contact', href: '/campaigns' },
                 ].map((link) => (
                   <li key={link.label}>
                     <a href={link.href} className="text-primary-300 hover:text-accent-400 transition-colors duration-200">
