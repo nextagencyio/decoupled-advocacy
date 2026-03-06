@@ -42,7 +42,7 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
               className={`${cardColors[i % cardColors.length]} border-2 rounded-2xl p-6 text-center transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg`}
             >
               <div className={`text-3xl md:text-4xl font-extrabold font-display ${textColors[i % textColors.length]}`}>
-                {stat.value || stat.statValue || stat.number}
+                {stat.value || stat.number || stat.statValue || stat.number}
               </div>
               <div className="text-gray-700 mt-2 font-medium">
                 {stat.label || stat.statLabel || stat.title}
