@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-campaigns",
               "title": "",
-              "number": "50+",
+              "number": "50+", "value": "50+",
               "label": "Active Campaigns"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-supporters",
               "title": "",
-              "number": "2M+",
+              "number": "2M+", "value": "2M+",
               "label": "Global Supporters"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-countries",
               "title": "",
-              "number": "35",
+              "number": "35", "value": "35",
               "label": "Countries Reached"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-victories",
               "title": "",
-              "number": "120+",
+              "number": "120+", "value": "120+",
               "label": "Policy Victories"
             }
           ],
