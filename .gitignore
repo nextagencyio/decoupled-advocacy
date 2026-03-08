@@ -88,4 +88,4 @@ storybook-static
 
 # Temporary folders
 tmp/
-temp/
+temp/.open-next/
