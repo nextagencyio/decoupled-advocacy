@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import ReportCard from '../components/ReportCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Reports | Voices United',
