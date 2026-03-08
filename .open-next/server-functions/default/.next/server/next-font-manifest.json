@@ -1,0 +1,51 @@
+{
+  "app": {
+    "[project]/app/[...slug]/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/_not-found/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/action-alerts/[...slug]/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/action-alerts/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/campaigns/[...slug]/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/campaigns/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/issues/[...slug]/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/issues/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/reports/[...slug]/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ],
+    "[project]/app/reports/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2",
+      "static/media/cf514f5d0007dafa-s.p.417aa1a2.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

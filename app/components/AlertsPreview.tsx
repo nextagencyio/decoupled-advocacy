@@ -35,7 +35,7 @@ export default function AlertsPreview() {
 
   if (loading) {
     return (
-      <section className="py-16 md:py-20 bg-purple-900 text-white">
+      <section className="py-16 md:py-20 bg-primary-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Action Alerts</h2>
@@ -59,18 +59,18 @@ export default function AlertsPreview() {
   }
 
   return (
-    <section className="py-16 md:py-20 bg-purple-900 text-white">
+    <section className="py-16 md:py-20 bg-primary-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-end mb-12">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Action Alerts</h2>
-            <p className="text-lg text-purple-200 max-w-2xl">
+            <p className="text-lg text-primary-200 max-w-2xl">
               Urgent actions you can take right now to make a difference.
             </p>
           </div>
           <Link
             href="/action-alerts"
-            className="hidden md:flex items-center text-orange-400 hover:text-orange-300 font-medium"
+            className="hidden md:flex items-center text-accent-400 hover:text-accent-300 font-medium"
           >
             All Alerts
             <ArrowRight className="w-4 h-4 ml-1" />
@@ -95,14 +95,14 @@ export default function AlertsPreview() {
                     </div>
                   </div>
                   <div className="flex-1 min-w-0">
-                    <span className="inline-block text-orange-400 text-sm font-medium mb-1">
+                    <span className="inline-block text-accent-400 text-sm font-medium mb-1">
                       {levelName}
                     </span>
-                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-orange-400 transition-colors line-clamp-2">
+                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-accent-400 transition-colors line-clamp-2">
                       {alert.title}
                     </h3>
                     {alert.deadline && (
-                      <div className="flex items-center text-sm text-purple-200">
+                      <div className="flex items-center text-sm text-primary-200">
                         <Clock className="w-4 h-4 mr-1" />
                         <span>Deadline: {formatDeadline(alert.deadline.timestamp)}</span>
                       </div>
@@ -117,7 +117,7 @@ export default function AlertsPreview() {
         <div className="text-center mt-10">
           <Link
             href="/action-alerts"
-            className="inline-flex items-center px-8 py-4 bg-orange-500 text-white rounded-lg hover:bg-orange-400 transition-colors font-bold"
+            className="inline-flex items-center px-8 py-4 bg-accent-500 text-white rounded-lg hover:bg-accent-400 transition-colors font-bold"
           >
             View All Alerts
             <ArrowRight className="w-5 h-5 ml-2" />

@@ -68,7 +68,7 @@ export default function CampaignsPreview({ homepageContent }: CampaignsPreviewPr
               href={campaign.path || `/campaigns/${campaign.id}`}
               className="group bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden"
             >
-              <div className="relative h-48 bg-gradient-to-br from-purple-600 to-indigo-700">
+              <div className="relative h-48 bg-gradient-to-br from-primary-600 to-primary-700">
                 {campaign.image?.url ? (
                   <ResponsiveImage
                     src={campaign.image.url}
@@ -87,11 +87,11 @@ export default function CampaignsPreview({ homepageContent }: CampaignsPreviewPr
 
               <div className="p-6">
                 {campaign.issueArea && campaign.issueArea.length > 0 && (
-                  <div className="text-sm text-purple-700 font-medium mb-2">
+                  <div className="text-sm text-primary-700 font-medium mb-2">
                     {campaign.issueArea[0].name}
                   </div>
                 )}
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-700 transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-primary-700 transition-colors">
                   {campaign.title}
                 </h3>
 
@@ -101,7 +101,7 @@ export default function CampaignsPreview({ homepageContent }: CampaignsPreviewPr
                   </p>
                 )}
 
-                <div className="flex items-center text-purple-700 font-medium group-hover:gap-2 transition-all">
+                <div className="flex items-center text-primary-700 font-medium group-hover:gap-2 transition-all">
                   Learn more
                   <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                 </div>
@@ -113,7 +113,7 @@ export default function CampaignsPreview({ homepageContent }: CampaignsPreviewPr
         <div className="text-center mt-12">
           <Link
             href="/campaigns"
-            className="inline-flex items-center px-8 py-4 bg-purple-700 text-white rounded-lg hover:bg-purple-800 transition-colors font-semibold"
+            className="inline-flex items-center px-8 py-4 bg-primary-700 text-white rounded-lg hover:bg-primary-800 transition-colors font-semibold"
           >
             View All Campaigns
             <ArrowRight className="w-5 h-5 ml-2" />

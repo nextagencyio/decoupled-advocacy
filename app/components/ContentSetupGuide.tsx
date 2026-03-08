@@ -24,13 +24,13 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
     : 'https://your-space.decoupled.website/admin/content/import'
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-blue-50 to-purple-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-primary-100 to-primary-50 flex items-center justify-center p-4">
       <div className="max-w-3xl w-full bg-white rounded-2xl shadow-xl p-8">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-gradient-to-br from-emerald-100 to-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-            <Database className="w-8 h-8 text-emerald-600" />
+          <div className="w-16 h-16 bg-gradient-to-br from-primary-100 to-primary-200 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Database className="w-8 h-8 text-primary-600" />
           </div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent mb-2">
+          <h1 className="text-3xl font-bold bg-gradient-to-r from-primary-600 via-primary-700 to-primary-800 bg-clip-text text-transparent mb-2">
             Almost There! Import Your Content
           </h1>
           <p className="text-gray-600">
@@ -39,11 +39,11 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
         </div>
 
         <div className="space-y-6">
-          <div className="bg-gradient-to-r from-emerald-50 to-blue-50 border border-emerald-200 rounded-lg p-4">
-            <h2 className="font-semibold text-emerald-900 mb-2">
+          <div className="bg-gradient-to-r from-primary-50 to-primary-100 border border-primary-200 rounded-lg p-4">
+            <h2 className="font-semibold text-primary-900 mb-2">
               ✅ Connection Successful
             </h2>
-            <p className="text-emerald-800 text-sm">
+            <p className="text-primary-800 text-sm">
               Your Next.js app is connected to Drupal. The content types and sample content just need to be imported.
             </p>
           </div>
@@ -54,7 +54,7 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
               onClick={() => setActiveTab('cli')}
               className={`px-4 py-2 font-medium text-sm border-b-2 transition-colors ${
                 activeTab === 'cli'
-                  ? 'border-emerald-600 text-emerald-600'
+                  ? 'border-primary-600 text-primary-600'
                   : 'border-transparent text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -65,7 +65,7 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
               onClick={() => setActiveTab('manual')}
               className={`px-4 py-2 font-medium text-sm border-b-2 transition-colors ${
                 activeTab === 'manual'
-                  ? 'border-emerald-600 text-emerald-600'
+                  ? 'border-primary-600 text-primary-600'
                   : 'border-transparent text-gray-500 hover:text-gray-700'
               }`}
             >
@@ -92,7 +92,7 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
                     )}
                   </button>
                 </div>
-                <code className="text-emerald-400 font-mono text-sm block">
+                <code className="text-primary-400 font-mono text-sm block">
                   {cliCommand}
                 </code>
               </div>
@@ -101,19 +101,19 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
                 <h3 className="font-semibold text-gray-900 mb-3">Steps:</h3>
                 <ol className="space-y-2 text-sm text-gray-700">
                   <li className="flex items-start">
-                    <span className="bg-emerald-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">1</span>
+                    <span className="bg-primary-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">1</span>
                     Open your terminal in this project directory
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-emerald-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">2</span>
+                    <span className="bg-primary-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">2</span>
                     Run the command above (it uses your <code className="bg-gray-200 px-1 rounded">.env.local</code> credentials)
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-emerald-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">3</span>
+                    <span className="bg-primary-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">3</span>
                     Wait for the import to complete
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-emerald-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">4</span>
+                    <span className="bg-primary-500 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">4</span>
                     Refresh this page
                   </li>
                 </ol>
@@ -132,7 +132,7 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
                 <h3 className="font-semibold text-gray-900 mb-3">Steps:</h3>
                 <ol className="space-y-3 text-sm text-gray-700">
                   <li className="flex items-start">
-                    <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">1</span>
+                    <span className="bg-primary-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">1</span>
                     <div>
                       <span>Open </span>
                       <code className="bg-gray-200 px-1 rounded">data/starter-content.json</code>
@@ -140,14 +140,14 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">2</span>
+                    <span className="bg-primary-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">2</span>
                     <div>
                       <span>Go to your Drupal admin: </span>
                       <a
                         href={adminImportUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-purple-700 hover:underline inline-flex items-center gap-1"
+                        className="text-primary-700 hover:underline inline-flex items-center gap-1"
                       >
                         {adminImportUrl.replace('https://', '')}
                         <ExternalLink className="w-3 h-3" />
@@ -155,15 +155,15 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">3</span>
+                    <span className="bg-primary-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">3</span>
                     Paste the JSON into the import form
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">4</span>
+                    <span className="bg-primary-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">4</span>
                     Click &quot;Preview&quot; to verify, then &quot;Import&quot; to apply
                   </li>
                   <li className="flex items-start">
-                    <span className="bg-purple-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">5</span>
+                    <span className="bg-primary-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5">5</span>
                     Refresh this page
                   </li>
                 </ol>
@@ -174,7 +174,7 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
                   href={adminImportUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex-1 bg-purple-700 text-white px-4 py-3 rounded-lg font-medium text-center hover:bg-purple-700 transition-colors flex items-center justify-center gap-2"
+                  className="flex-1 bg-primary-700 text-white px-4 py-3 rounded-lg font-medium text-center hover:bg-primary-700 transition-colors flex items-center justify-center gap-2"
                 >
                   Open Drupal Import Page
                   <ExternalLink className="w-4 h-4" />
@@ -186,7 +186,7 @@ export default function ContentSetupGuide({ drupalBaseUrl }: ContentSetupGuidePr
           <div className="pt-4 border-t border-gray-200">
             <button
               onClick={() => window.location.reload()}
-              className="w-full bg-gradient-to-r from-emerald-600 to-blue-600 text-white px-4 py-3 rounded-lg font-medium hover:from-emerald-700 hover:to-blue-700 transition-all"
+              className="w-full bg-gradient-to-r from-primary-600 to-primary-700 text-white px-4 py-3 rounded-lg font-medium hover:from-primary-700 hover:to-primary-800 transition-all"
             >
               Check Again
             </button>

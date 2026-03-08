@@ -66,11 +66,11 @@ export default async function ActionAlertDetailPage({ params }: PageProps) {
     <div className="min-h-screen bg-gray-50">
       <Header />
 
-      <section className="bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-900 text-white py-12 md:py-16">
+      <section className="bg-gradient-to-br from-primary-900 via-primary-800 to-primary-900 text-white py-12 md:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Link
             href="/action-alerts"
-            className="inline-flex items-center text-emerald-200 hover:text-white mb-6 transition-colors"
+            className="inline-flex items-center text-primary-200 hover:text-white mb-6 transition-colors"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Action Alerts
@@ -122,7 +122,7 @@ export default async function ActionAlertDetailPage({ params }: PageProps) {
                 <div className="mt-8">
                   <Link
                     href="/campaigns"
-                    className="block w-full text-center px-6 py-3 bg-emerald-700 text-white rounded-lg font-bold hover:bg-emerald-600 transition-colors"
+                    className="block w-full text-center px-6 py-3 bg-primary-700 text-white rounded-lg font-bold hover:bg-primary-600 transition-colors"
                   >
                     Contact Us
                   </Link>

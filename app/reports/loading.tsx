@@ -1,8 +1,8 @@
 export default function Loading() {
   return (
-    <div className="min-h-screen bg-gray-50 animate-pulse">
-      <div className="bg-emerald-900 h-16" />
-      <div className="bg-emerald-800 h-64" />
+    <div className="min-h-screen bg-primary-50 animate-pulse">
+      <div className="bg-primary-900 h-16" />
+      <div className="bg-primary-800 h-64" />
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {[1, 2, 3, 4, 5, 6].map((i) => (

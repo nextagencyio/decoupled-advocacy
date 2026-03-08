@@ -9,9 +9,9 @@ module.exports = {
   safelist: [
     'bg-violet-100', 'text-violet-600',
     'bg-yellow-100', 'text-yellow-600',
-    'bg-purple-100', 'text-purple-600',
+    'bg-purple-100', 'text-purple-600', 'text-purple-700', 'border-purple-200',
     'bg-fuchsia-100', 'text-fuchsia-600',
-    'bg-indigo-100', 'text-indigo-600',
+    'bg-indigo-100', 'text-indigo-600', 'text-indigo-700', 'border-indigo-200',
     'bg-amber-100', 'text-amber-600',
   ],
   theme: {

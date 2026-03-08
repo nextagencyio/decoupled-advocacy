@@ -9,14 +9,14 @@ interface StatsSectionProps {
 const cardColors = [
   'bg-primary-100 border-primary-200',
   'bg-accent-100 border-accent-200',
-  'bg-fuchsia-100 border-fuchsia-200',
+  'bg-purple-100 border-purple-200',
   'bg-indigo-100 border-indigo-200',
 ]
 
 const textColors = [
   'text-primary-700',
   'text-accent-700',
-  'text-fuchsia-700',
+  'text-purple-700',
   'text-indigo-700',
 ]
 

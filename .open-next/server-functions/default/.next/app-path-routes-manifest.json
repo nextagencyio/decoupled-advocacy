@@ -1,0 +1,19 @@
+{
+  "/[...slug]/page": "/[...slug]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/action-alerts/[...slug]/page": "/action-alerts/[...slug]",
+  "/action-alerts/page": "/action-alerts",
+  "/api/graphql/route": "/api/graphql",
+  "/api/proxy/sites/[...path]/route": "/api/proxy/sites/[...path]",
+  "/api/revalidate/route": "/api/revalidate",
+  "/apple-icon/route": "/apple-icon",
+  "/campaigns/[...slug]/page": "/campaigns/[...slug]",
+  "/campaigns/page": "/campaigns",
+  "/icon.svg/route": "/icon.svg",
+  "/issues/[...slug]/page": "/issues/[...slug]",
+  "/issues/page": "/issues",
+  "/page": "/",
+  "/reports/[...slug]/page": "/reports/[...slug]",
+  "/reports/page": "/reports"
+}
