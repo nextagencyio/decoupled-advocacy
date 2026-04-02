@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_ACTION_ALERTS } from '@/lib/queries'
 import { ActionAlertsData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,13 +15,8 @@ export const metadata: Metadata = {
 
 async function getActionAlerts() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<ActionAlertsData>({
-      query: GET_ACTION_ALERTS,
-      variables: { first: 50 },
-      fetchPolicy: 'cache-first',
-    })
+    const client = getClient()
+    const { data } = await client.raw(GET_ACTION_ALERTS, { first: 50 })
     return data?.nodeActionAlerts?.nodes || []
   } catch (error) {
     console.error('Error fetching action alerts:', error)
