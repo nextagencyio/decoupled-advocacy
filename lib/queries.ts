@@ -47,13 +47,13 @@ export const GET_CAMPAIGNS = gql`
             summary
           }
           issueArea {
-            ... on TermInterface {
+            ... on TermIssueArea {
               id
               name
             }
           }
           campaignType {
-            ... on TermInterface {
+            ... on TermCampaignType {
               id
               name
             }
@@ -93,13 +93,13 @@ export const GET_CAMPAIGN_BY_PATH = gql`
               processed
             }
             issueArea {
-              ... on TermInterface {
+              ... on TermIssueArea {
                 id
                 name
               }
             }
             campaignType {
-              ... on TermInterface {
+              ... on TermCampaignType {
                 id
                 name
               }
@@ -141,7 +141,7 @@ export const GET_ISSUES = gql`
             summary
           }
           issueArea {
-            ... on TermInterface {
+            ... on TermIssueArea {
               id
               name
             }
@@ -180,7 +180,7 @@ export const GET_ISSUE_BY_PATH = gql`
               processed
             }
             issueArea {
-              ... on TermInterface {
+              ... on TermIssueArea {
                 id
                 name
               }
@@ -221,13 +221,13 @@ export const GET_ACTION_ALERTS = gql`
             summary
           }
           alertLevel {
-            ... on TermInterface {
+            ... on TermAlertLevel {
               id
               name
             }
           }
           issueArea {
-            ... on TermInterface {
+            ... on TermIssueArea {
               id
               name
             }
@@ -267,13 +267,13 @@ export const GET_ACTION_ALERT_BY_PATH = gql`
               processed
             }
             alertLevel {
-              ... on TermInterface {
+              ... on TermAlertLevel {
                 id
                 name
               }
             }
             issueArea {
-              ... on TermInterface {
+              ... on TermIssueArea {
                 id
                 name
               }
@@ -315,7 +315,7 @@ export const GET_REPORTS = gql`
             summary
           }
           reportType {
-            ... on TermInterface {
+            ... on TermReportType {
               id
               name
             }
@@ -355,7 +355,7 @@ export const GET_REPORT_BY_PATH = gql`
               processed
             }
             reportType {
-              ... on TermInterface {
+              ... on TermReportType {
                 id
                 name
               }
@@ -393,7 +393,7 @@ export const GET_FEATURED_CAMPAIGNS = gql`
         path
         ... on NodeCampaign {
           issueArea {
-            ... on TermInterface {
+            ... on TermIssueArea {
               id
               name
             }
@@ -425,13 +425,13 @@ export const GET_FEATURED_ALERTS = gql`
         path
         ... on NodeActionAlert {
           alertLevel {
-            ... on TermInterface {
+            ... on TermAlertLevel {
               id
               name
             }
           }
           issueArea {
-            ... on TermInterface {
+            ... on TermIssueArea {
               id
               name
             }
@@ -466,13 +466,13 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             issueArea {
-              ... on TermInterface {
+              ... on TermIssueArea {
                 id
                 name
               }
             }
             campaignType {
-              ... on TermInterface {
+              ... on TermCampaignType {
                 id
                 name
               }
@@ -496,7 +496,7 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             issueArea {
-              ... on TermInterface {
+              ... on TermIssueArea {
                 id
                 name
               }
@@ -519,13 +519,13 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             alertLevel {
-              ... on TermInterface {
+              ... on TermAlertLevel {
                 id
                 name
               }
             }
             issueArea {
-              ... on TermInterface {
+              ... on TermIssueArea {
                 id
                 name
               }
@@ -543,7 +543,7 @@ export const GET_NODE_BY_PATH = gql`
               processed
             }
             reportType {
-              ... on TermInterface {
+              ... on TermReportType {
                 id
                 name
               }

@@ -1,8 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
+import { useQuery, gql } from '@apollo/client'
 import { GET_FEATURED_ALERTS } from '@/lib/queries'
+
+const FEATURED_ALERTS_QUERY = gql(GET_FEATURED_ALERTS)
 import { DrupalActionAlert } from '@/lib/types'
 import { AlertTriangle, ArrowRight, Clock } from 'lucide-react'
 
@@ -29,7 +31,7 @@ function formatDeadline(timestamp: number): string {
 }
 
 export default function AlertsPreview() {
-  const { data, loading, error } = useQuery<FeaturedAlertsData>(GET_FEATURED_ALERTS)
+  const { data, loading, error } = useQuery<FeaturedAlertsData>(FEATURED_ALERTS_QUERY)
 
   const alerts = data?.nodeActionAlerts?.nodes || []
 

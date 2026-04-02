@@ -1,8 +1,10 @@
 'use client'
 
 import Link from 'next/link'
-import { useQuery } from '@apollo/client'
+import { useQuery, gql } from '@apollo/client'
 import { GET_FEATURED_CAMPAIGNS } from '@/lib/queries'
+
+const FEATURED_CAMPAIGNS_QUERY = gql(GET_FEATURED_CAMPAIGNS)
 import { DrupalHomepage, DrupalCampaign } from '@/lib/types'
 import { Target, ArrowRight } from 'lucide-react'
 import ResponsiveImage from './ResponsiveImage'
@@ -18,7 +20,7 @@ interface FeaturedCampaignsData {
 }
 
 export default function CampaignsPreview({ homepageContent }: CampaignsPreviewProps) {
-  const { data, loading, error } = useQuery<FeaturedCampaignsData>(GET_FEATURED_CAMPAIGNS)
+  const { data, loading, error } = useQuery<FeaturedCampaignsData>(FEATURED_CAMPAIGNS_QUERY)
 
   const campaigns = data?.nodeCampaigns?.nodes || []
   const sectionTitle = homepageContent?.featuredCampaignsTitle || 'Our Campaigns'
