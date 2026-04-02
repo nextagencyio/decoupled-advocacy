@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getActionAlerts() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_ACTION_ALERTS, { first: 50 })
+    const data = await client.raw(GET_ACTION_ALERTS, { first: 50 })
     return data?.nodeActionAlerts?.nodes || []
   } catch (error) {
     console.error('Error fetching action alerts:', error)
@@ -58,7 +58,7 @@ export default async function ActionAlertsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <ActionAlertCard key={item.id} item={item} />
               ))}
             </div>
